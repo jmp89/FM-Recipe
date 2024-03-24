@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Outfit;
+  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Young-Serif;
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  font-family: Outfit;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+/* COLORES
+
+- White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%) PREPARATION TIME
+- Eggshell: hsl(30, 54%, 90%) BACKGROUND
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%) PARRAPH
+- Dark Charcoal: hsl(24, 5%, 18%) H1
+- Nutmeg: hsl(14, 45%, 36%) H3
+- Dark Raspberry: hsl(332, 51%, 32%)
+*/
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+div {
+  width: 100%;
+  padding: 1.5rem;
+}
+img {
+  border-radius: 0.7rem;
+  width: 100%;
+}
+
+#main-container {
+  margin: 5rem auto;
+  padding: 2.2rem;
+  gap: 1.2rem;
+  width: 75%;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: Young-Serif;
+  color: hsl(24, 5%, 18%);
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+h1 + p {
+  font-size: 1rem;
+}
+.info-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 7px;
+}
+.info-time h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1rem;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 0.4rem;
+}
+li::before {
+  content: "■";
+  font-size: 0.5rem;
+  display: inline-block;
+  width: 2rem;
+  margin-left: -2.2rem;
+}
+
+.info-time li::before {
+  color: hsl(330, 78%, 22%);
+}
+
+span {
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Young-Serif;
+  font-size: 1.8rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.standard-list {
+  padding: 0rem 1.5rem;
+}
+
+.standard-list li::before {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  width: 100%;
+  border-color: hsla(30, 18%, 87%, 0.247);
+  border-bottom: 1px;
+}
+
+.standard-list ol li::before {
+  content: counter(list-item) ".";
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  width: 2rem;
+  margin-left: -2.2rem;
+}
+
+.nutritional-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.nutritional-info p {
+  width: 1fr;
+}
+.nutritional-info span {
+  width: 1fr;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutritional-info hr {
+  grid-column: 1/3;
+}
+
+.attribution a {
+  font-weight: bold;
+}
+
+footer p {
+  text-align: end;
+}
