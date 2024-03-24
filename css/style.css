@@ -41,7 +41,6 @@ img {
 #main-container {
   margin: 5rem auto 0;
   padding: 2.2rem;
-  gap: 1.2rem;
   width: 70%;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
@@ -49,6 +48,12 @@ img {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+
+#mobile-container p,
+h3,
+hr {
+  margin: 1.5rem 0;
 }
 
 h1 {
@@ -170,11 +175,7 @@ hr {
   #mobile-container {
     padding: 0 2.2rem;
   }
-  #mobile-container p,
-  h3,
-  hr {
-    margin: 1.5rem 0;
-  }
+
   img {
     border-radius: 0;
   }
