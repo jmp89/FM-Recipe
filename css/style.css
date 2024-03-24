@@ -39,10 +39,10 @@ img {
 }
 
 #main-container {
-  margin: 5rem auto;
+  margin: 5rem auto 0;
   padding: 2.2rem;
   gap: 1.2rem;
-  width: 75%;
+  width: 70%;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -125,14 +125,11 @@ hr {
 .nutritional-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(9, 0.7rem);
   gap: 1rem;
 }
 
-.nutritional-info p {
-  width: 1fr;
-}
 .nutritional-info span {
-  width: 1fr;
   color: hsl(14, 45%, 36%);
 }
 
@@ -140,10 +137,56 @@ hr {
   grid-column: 1/3;
 }
 
-.attribution a {
-  font-weight: bold;
+.attribution {
+  text-align: end;
+  width: 70%;
+  margin: 0 auto;
 }
 
-footer p {
-  text-align: end;
+.attribution p {
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 576px) {
+  * {
+    font-size: 14px;
+  }
+
+  #main-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #mobile-container {
+    padding: 0 2.2rem;
+  }
+  #mobile-container p,
+  h3,
+  hr {
+    margin: 1.5rem 0;
+  }
+  img {
+    border-radius: 0;
+  }
+
+  .nutritional-info {
+    align-items: center;
+  }
+  .nutritional-info hr {
+    margin: 0;
+  }
+  .attribution {
+    text-align: center;
+    width: 100%;
+  }
 }
