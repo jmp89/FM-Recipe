@@ -5,15 +5,28 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+### The challenge
+
+This challenge is an exercise where they expects to get this design starting with the following images as reference, only using HTML and CSS.
+
+### Desktop version
+
+![Desktop version](./design/desktop-design.jpg)
+
+### Mobile version
+
+![Mobile version](./design/mobile-design.jpg)
 
 ### Links
 
