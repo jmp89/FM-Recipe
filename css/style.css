@@ -37,12 +37,16 @@ div {
 img {
   border-radius: 0.7rem;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
+p {
+  width: 95%;
+}
 #main-container {
   margin: 8rem auto 0;
   padding: 2.2rem;
-  width: 53%;
+  width: 50%;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -50,7 +54,9 @@ img {
   align-items: flex-start;
   justify-content: center;
 }
-
+#mobile-container {
+  padding: 0;
+}
 #mobile-container p,
 h3,
 hr {
@@ -89,6 +95,10 @@ li::before {
   display: inline-block;
   width: 2rem;
   margin-left: -2.2rem;
+}
+
+.standard-list span {
+  color: hsl(30, 10%, 34%);
 }
 
 .info-time li::before {
@@ -152,7 +162,7 @@ div span {
 
 .attribution {
   text-align: end;
-  width: 53%;
+  width: 55%;
   margin: 0 auto;
 }
 
@@ -201,6 +211,7 @@ div span {
 
   img {
     border-radius: 0;
+    margin: 0;
   }
 
   .nutritional-info {
