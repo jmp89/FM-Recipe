@@ -39,9 +39,9 @@ img {
 }
 
 #main-container {
-  margin: 5rem auto 0;
+  margin: 7rem auto 0;
   padding: 2.2rem;
-  width: 70%;
+  width: 43%;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -144,7 +144,7 @@ hr {
 
 .attribution {
   text-align: end;
-  width: 70%;
+  width: 43%;
   margin: 0 auto;
 }
 
@@ -155,6 +155,17 @@ hr {
 .attribution a {
   font-weight: bold;
   font-size: 0.8rem;
+}
+
+@media (max-width: 910px) {
+  * {
+    font-size: 14px;
+  }
+
+  #main-container {
+    width: 75%;
+    margin: 3rem auto 0;
+  }
 }
 
 @media (max-width: 576px) {

@@ -27,6 +27,7 @@ This challenge is an exercise where they expects to get this design starting wit
 ### Mobile version
 
 ![Mobile version](./design/mobile-design.jpg)
+g
 
 ### Links
 
