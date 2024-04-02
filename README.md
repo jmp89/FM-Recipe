@@ -6,6 +6,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [My screenshot](#my-screenshot)
   - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
@@ -19,6 +20,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### The challenge
 
 This challenge is an exercise where they expects to get this design starting with the following images as reference, only using HTML and CSS.
+
+### My screenshot
+
+![](./design/screenshot.webp)
 
 ### Desktop version
 
